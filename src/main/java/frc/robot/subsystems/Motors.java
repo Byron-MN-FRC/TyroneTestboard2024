@@ -74,7 +74,7 @@ neo550.setIdleMode(IdleMode.kCoast);
 neo550.burnFlash();
   
 
-sparkFlex = new CANSparkFlex(0, MotorType.kBrushless);
+sparkFlex = new CANSparkFlex(23, MotorType.kBrushless);
  
  sparkFlex.restoreFactoryDefaults();  
 sparkFlex.setInverted(false);

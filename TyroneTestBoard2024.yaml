@@ -99,7 +99,7 @@ Children:
           default: '2'
           name: CAN ID
           validators: [CANID]
-          value: '0'
+          value: '23'
         MOTOR TYPE: !!robotbuilder.data.properties.ChoicesProperty
           choices: [kBrushless, kBrushed]
           default: kBrushless
@@ -336,7 +336,7 @@ Children:
           default: onTrue
           name: When to Run
           validators: null
-          value: onTrue
+          value: whileTrue
       Base: Joystick Button
       Name: buttonSparkFlex
     Properties:
